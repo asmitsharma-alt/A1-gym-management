@@ -20,7 +20,7 @@
 ## Screenshots
 
 ### Dashboard
-![Dashboard](screenshots/Dashboard.jpeg)
+![Dashboard](screenshot/Dashboard.jpeg)
 
 ### Add Member Screen
 ![Add Member](screenshot/Add%20Member%20Screen.jpeg)
