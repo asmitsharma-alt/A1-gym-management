@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.a1gym.manager.app-mergeDebugResources-51:/values-w600dp-land-v13/values-w600dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\caches\\transforms-3\\2ca9cd4d30be2471873378459d6d30ea\\transformed\\material-1.11.0\\res\\values-w600dp-land-v13\\values-w600dp-land-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "54",
+                        "endOffsets": "105"
+                    }
+                }
+            ]
+        }
+    ]
+}

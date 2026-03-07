@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary: Dark Blue -->
+    <color name="colorPrimary">#1A237E</color>
+    <color name="colorPrimaryVariant">#000051</color>
+    <!-- Accent: Electric Blue -->
+    <color name="colorAccent">#2962FF</color>
+    <!-- Background: Light Grey -->
+    <color name="colorBackground">#F5F6FA</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    
+    <!-- Status Colors -->
+    <color name="status_active">#4CAF50</color>
+    <color name="status_expired">#F44336</color>
+    <color name="status_expiring_soon">#FF9800</color>
+</resources>

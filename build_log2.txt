@@ -1,0 +1,69 @@
+> Task :app:clean
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors
+> Task :app:dataBindingMergeDependencyArtifactsDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :app:packageDebugResources
+> Task :app:generateSafeArgsDebug
+> Task :app:parseDebugLocalResources
+> Task :app:mapDebugSourceSetPaths
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :app:checkDebugAarMetadata
+> Task :app:mergeDebugResources
+> Task :app:processDebugMainManifest
+> Task :app:dataBindingGenBaseClassesDebug
+> Task :app:processDebugManifest
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:javaPreCompileDebug
+> Task :app:mergeDebugAssets
+> Task :app:compressDebugAssets
+> Task :app:desugarDebugFileDependencies
+> Task :app:mergeDebugJniLibFolders
+> Task :app:mergeDebugNativeLibs NO-SOURCE
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :app:validateSigningDebug
+> Task :app:writeDebugAppMetadata
+> Task :app:writeDebugSigningConfigVersions
+> Task :app:processDebugManifestForPackage
+> Task :app:checkDebugDuplicateClasses
+> Task :app:mergeLibDexDebug
+> Task :app:processDebugResources
+> Task :app:mergeExtDexDebug
+> Task :app:kaptGenerateStubsDebugKotlin
+> Task :app:kaptDebugKotlin
+
+> Task :app:compileDebugKotlin FAILED
+e: file:///C:/Users/Asmitkumarsharma/Downloads/a1/app/src/main/java/com/a1gym/manager/ui/dashboard/SettingsFragment.kt:26:42 Unresolved reference: findNavController
+e: file:///C:/Users/Asmitkumarsharma/Downloads/a1/app/src/main/java/com/a1gym/manager/ui/members/MemberListFragment.kt:59:13 Unresolved reference: findNavController
+e: file:///C:/Users/Asmitkumarsharma/Downloads/a1/app/src/main/java/com/a1gym/manager/ui/members/MemberListFragment.kt:90:13 Unresolved reference: findNavController
+e: file:///C:/Users/Asmitkumarsharma/Downloads/a1/app/src/main/java/com/a1gym/manager/ui/payments/PaymentHistoryFragment.kt:15:37 Unresolved reference: GymViewModel
+e: file:///C:/Users/Asmitkumarsharma/Downloads/a1/app/src/main/java/com/a1gym/manager/ui/payments/PaymentHistoryFragment.kt:29:24 Unresolved reference: AppDatabase
+e: file:///C:/Users/Asmitkumarsharma/Downloads/a1/app/src/main/java/com/a1gym/manager/ui/payments/PaymentHistoryFragment.kt:29:66 Unresolved reference: lifecycleScope
+e: file:///C:/Users/Asmitkumarsharma/Downloads/a1/app/src/main/java/com/a1gym/manager/ui/payments/PaymentHistoryFragment.kt:30:26 Unresolved reference: GymRepository
+e: file:///C:/Users/Asmitkumarsharma/Downloads/a1/app/src/main/java/com/a1gym/manager/ui/payments/PaymentHistoryFragment.kt:31:23 Unresolved reference: GymViewModelFactory
+e: file:///C:/Users/Asmitkumarsharma/Downloads/a1/app/src/main/java/com/a1gym/manager/ui/payments/PaymentHistoryFragment.kt:32:21 Unresolved reference: ViewModelProvider
+e: file:///C:/Users/Asmitkumarsharma/Downloads/a1/app/src/main/java/com/a1gym/manager/ui/payments/PaymentHistoryFragment.kt:32:54 Unresolved reference: GymViewModel
+e: file:///C:/Users/Asmitkumarsharma/Downloads/a1/app/src/main/java/com/a1gym/manager/ui/payments/PaymentHistoryFragment.kt:47:28 Unresolved reference: lifecycleScope
+e: file:///C:/Users/Asmitkumarsharma/Downloads/a1/app/src/main/java/com/a1gym/manager/ui/payments/PaymentHistoryFragment.kt:48:51 Cannot infer a type for this parameter. Please specify it explicitly.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+32 actionable tasks: 32 executed
+BUILD FAILED in 1m 22s
