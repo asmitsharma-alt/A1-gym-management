@@ -20,19 +20,19 @@
 ## Screenshots
 
 ### Dashboard
-![Dashboard](screenshots/Dashboard.jpeg)
+![Dashboard](screenshot/Dashboard.jpeg)
 
 ### Add Member Screen
-![Add Member](screenshots/Add%20Member%20Screen.jpeg)
+![Add Member](screenshot/Add%20Member%20Screen.jpeg)
 
 ### Member List
-![Member List](screenshots/Member%20List.jpeg)
+![Member List](screenshot/Member%20List.jpeg)
 
 ### Member Profile
-![Member Profile](screenshots/Member%20Profile.jpeg)
+![Member Profile](screenshot/Member%20Profile.jpeg)
 
 ### Payment History
-![Payment History](screenshots/Payment%20History.jpeg)
+![Payment History](screenshot/Payment%20History.jpeg)
 
 ---
 
