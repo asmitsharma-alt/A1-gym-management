@@ -20,24 +20,19 @@
 ## Screenshots
 
 ### Dashboard
-<!-- ![Dashboard](path/to/dashboard.png) -->
-*(Screenshot placeholder)*
+![Dashboard](screenshots/Dashboard.jpeg)
 
 ### Add Member Screen
-<!-- ![Add Member Screen](path/to/add_member.png) -->
-*(Screenshot placeholder)*
+![Add Member](screenshots/Add%20Member%20Screen.jpeg)
 
 ### Member List
-<!-- ![Member List](path/to/member_list.png) -->
-*(Screenshot placeholder)*
+![Member List](screenshots/Member%20List.jpeg)
 
 ### Member Profile
-<!-- ![Member Profile](path/to/member_profile.png) -->
-*(Screenshot placeholder)*
+![Member Profile](screenshots/Member%20Profile.jpeg)
 
 ### Payment History
-<!-- ![Payment History](path/to/payment_history.png) -->
-*(Screenshot placeholder)*
+![Payment History](screenshots/Payment%20History.jpeg)
 
 ---
 
