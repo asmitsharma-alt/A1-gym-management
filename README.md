@@ -23,23 +23,23 @@
 ![Dashboard](screenshot/dashboard.jpeg)
 
 ### Add Member
-![Add Member 1](screenshot/add%20member%201.jpeg)
-![Add Member 2](screenshot/add%20member%202.jpeg)
+![Add Member 1](screenshot/add_member_1.jpeg)
+![Add Member 2](screenshot/add_member_2.jpeg)
 
 ### Member List
-![Member List](screenshot/member%20list.jpeg)
+![Member List](screenshot/member_list.jpeg)
 
 ### Member Profile
-![Member Profile](screenshot/member%20profile.jpeg)
+![Member Profile](screenshot/member_profile.jpeg)
 
 ### Payment History
-![Payment History](screenshot/payment%20history.jpeg)
+![Payment History](screenshot/payment_history.jpeg)
 
 ### Payment Receipt (PDF)
-![Payment Receipt](screenshot/payment%20receipt.jpeg)
+![Payment Receipt](screenshot/payment_receipt.jpeg)
 
 ### Manage Plans
-![Manage Plans](screenshot/manage%20plan.jpeg)
+![Manage Plans](screenshot/manage_plan.jpeg)
 
 ### Settings
 ![Settings](screenshot/setting.jpeg)
