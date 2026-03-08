@@ -65,7 +65,7 @@ Follow these steps to run the project locally on your machine.
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/username/a1-gym-manager.git
+   git clone https://github.com/asmitsharma-alt/A1-gym-management.git
    ```
 
 2. **Open the project in Android Studio**
