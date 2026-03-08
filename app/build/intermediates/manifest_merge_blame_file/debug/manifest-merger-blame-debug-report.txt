@@ -9,17 +9,17 @@
 9        android:targetSdkVersion="34" />
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\Asmitkumarsharma\Downloads\a1\app\src\main\AndroidManifest.xml:5:5-67
-11-->C:\Users\Asmitkumarsharma\Downloads\a1\app\src\main\AndroidManifest.xml:5:22-64
+11-->C:\Users\Asmitkumarsharma\Desktop\A1 gym man\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\Asmitkumarsharma\Desktop\A1 gym man\app\src\main\AndroidManifest.xml:5:22-64
 12    <uses-permission
-12-->C:\Users\Asmitkumarsharma\Downloads\a1\app\src\main\AndroidManifest.xml:6:5-108
+12-->C:\Users\Asmitkumarsharma\Desktop\A1 gym man\app\src\main\AndroidManifest.xml:6:5-108
 13        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
-13-->C:\Users\Asmitkumarsharma\Downloads\a1\app\src\main\AndroidManifest.xml:6:22-78
+13-->C:\Users\Asmitkumarsharma\Desktop\A1 gym man\app\src\main\AndroidManifest.xml:6:22-78
 14        android:maxSdkVersion="28" />
-14-->C:\Users\Asmitkumarsharma\Downloads\a1\app\src\main\AndroidManifest.xml:6:79-105
+14-->C:\Users\Asmitkumarsharma\Desktop\A1 gym man\app\src\main\AndroidManifest.xml:6:79-105
 15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-15-->C:\Users\Asmitkumarsharma\Downloads\a1\app\src\main\AndroidManifest.xml:7:5-80
-15-->C:\Users\Asmitkumarsharma\Downloads\a1\app\src\main\AndroidManifest.xml:7:22-77
+15-->C:\Users\Asmitkumarsharma\Desktop\A1 gym man\app\src\main\AndroidManifest.xml:7:5-80
+15-->C:\Users\Asmitkumarsharma\Desktop\A1 gym man\app\src\main\AndroidManifest.xml:7:22-77
 16
 17    <permission
 17-->[androidx.core:core:1.12.0] C:\Users\Asmitkumarsharma\.gradle\caches\transforms-3\52e9327b6f5397ebd9e7b489dfa809a2\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
@@ -33,62 +33,62 @@
 21-->[androidx.core:core:1.12.0] C:\Users\Asmitkumarsharma\.gradle\caches\transforms-3\52e9327b6f5397ebd9e7b489dfa809a2\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
 22
 23    <application
-23-->C:\Users\Asmitkumarsharma\Downloads\a1\app\src\main\AndroidManifest.xml:9:5-39:19
+23-->C:\Users\Asmitkumarsharma\Desktop\A1 gym man\app\src\main\AndroidManifest.xml:9:5-39:19
 24        android:allowBackup="true"
-24-->C:\Users\Asmitkumarsharma\Downloads\a1\app\src\main\AndroidManifest.xml:10:9-35
+24-->C:\Users\Asmitkumarsharma\Desktop\A1 gym man\app\src\main\AndroidManifest.xml:10:9-35
 25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 25-->[androidx.core:core:1.12.0] C:\Users\Asmitkumarsharma\.gradle\caches\transforms-3\52e9327b6f5397ebd9e7b489dfa809a2\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
 26        android:dataExtractionRules="@xml/data_extraction_rules"
-26-->C:\Users\Asmitkumarsharma\Downloads\a1\app\src\main\AndroidManifest.xml:11:9-65
+26-->C:\Users\Asmitkumarsharma\Desktop\A1 gym man\app\src\main\AndroidManifest.xml:11:9-65
 27        android:debuggable="true"
 28        android:extractNativeLibs="false"
 29        android:fullBackupContent="@xml/backup_rules"
-29-->C:\Users\Asmitkumarsharma\Downloads\a1\app\src\main\AndroidManifest.xml:12:9-54
+29-->C:\Users\Asmitkumarsharma\Desktop\A1 gym man\app\src\main\AndroidManifest.xml:12:9-54
 30        android:icon="@mipmap/ic_launcher_logo"
-30-->C:\Users\Asmitkumarsharma\Downloads\a1\app\src\main\AndroidManifest.xml:13:9-48
+30-->C:\Users\Asmitkumarsharma\Desktop\A1 gym man\app\src\main\AndroidManifest.xml:13:9-48
 31        android:label="@string/app_name"
-31-->C:\Users\Asmitkumarsharma\Downloads\a1\app\src\main\AndroidManifest.xml:14:9-41
+31-->C:\Users\Asmitkumarsharma\Desktop\A1 gym man\app\src\main\AndroidManifest.xml:14:9-41
 32        android:roundIcon="@mipmap/ic_launcher_logo_round"
-32-->C:\Users\Asmitkumarsharma\Downloads\a1\app\src\main\AndroidManifest.xml:15:9-59
+32-->C:\Users\Asmitkumarsharma\Desktop\A1 gym man\app\src\main\AndroidManifest.xml:15:9-59
 33        android:supportsRtl="true"
-33-->C:\Users\Asmitkumarsharma\Downloads\a1\app\src\main\AndroidManifest.xml:16:9-35
+33-->C:\Users\Asmitkumarsharma\Desktop\A1 gym man\app\src\main\AndroidManifest.xml:16:9-35
 34        android:theme="@style/Theme.A1GymManager" >
-34-->C:\Users\Asmitkumarsharma\Downloads\a1\app\src\main\AndroidManifest.xml:17:9-50
+34-->C:\Users\Asmitkumarsharma\Desktop\A1 gym man\app\src\main\AndroidManifest.xml:17:9-50
 35        <activity
-35-->C:\Users\Asmitkumarsharma\Downloads\a1\app\src\main\AndroidManifest.xml:19:9-28:20
+35-->C:\Users\Asmitkumarsharma\Desktop\A1 gym man\app\src\main\AndroidManifest.xml:19:9-28:20
 36            android:name="com.a1gym.manager.MainActivity"
-36-->C:\Users\Asmitkumarsharma\Downloads\a1\app\src\main\AndroidManifest.xml:20:13-41
+36-->C:\Users\Asmitkumarsharma\Desktop\A1 gym man\app\src\main\AndroidManifest.xml:20:13-41
 37            android:exported="true"
-37-->C:\Users\Asmitkumarsharma\Downloads\a1\app\src\main\AndroidManifest.xml:21:13-36
+37-->C:\Users\Asmitkumarsharma\Desktop\A1 gym man\app\src\main\AndroidManifest.xml:21:13-36
 38            android:theme="@style/Theme.A1GymManager" >
-38-->C:\Users\Asmitkumarsharma\Downloads\a1\app\src\main\AndroidManifest.xml:22:13-54
+38-->C:\Users\Asmitkumarsharma\Desktop\A1 gym man\app\src\main\AndroidManifest.xml:22:13-54
 39            <intent-filter>
-39-->C:\Users\Asmitkumarsharma\Downloads\a1\app\src\main\AndroidManifest.xml:23:13-27:29
+39-->C:\Users\Asmitkumarsharma\Desktop\A1 gym man\app\src\main\AndroidManifest.xml:23:13-27:29
 40                <action android:name="android.intent.action.MAIN" />
-40-->C:\Users\Asmitkumarsharma\Downloads\a1\app\src\main\AndroidManifest.xml:24:17-69
-40-->C:\Users\Asmitkumarsharma\Downloads\a1\app\src\main\AndroidManifest.xml:24:25-66
+40-->C:\Users\Asmitkumarsharma\Desktop\A1 gym man\app\src\main\AndroidManifest.xml:24:17-69
+40-->C:\Users\Asmitkumarsharma\Desktop\A1 gym man\app\src\main\AndroidManifest.xml:24:25-66
 41
 42                <category android:name="android.intent.category.LAUNCHER" />
-42-->C:\Users\Asmitkumarsharma\Downloads\a1\app\src\main\AndroidManifest.xml:26:17-77
-42-->C:\Users\Asmitkumarsharma\Downloads\a1\app\src\main\AndroidManifest.xml:26:27-74
+42-->C:\Users\Asmitkumarsharma\Desktop\A1 gym man\app\src\main\AndroidManifest.xml:26:17-77
+42-->C:\Users\Asmitkumarsharma\Desktop\A1 gym man\app\src\main\AndroidManifest.xml:26:27-74
 43            </intent-filter>
 44        </activity>
 45
 46        <provider
 47            android:name="androidx.core.content.FileProvider"
-47-->C:\Users\Asmitkumarsharma\Downloads\a1\app\src\main\AndroidManifest.xml:31:13-62
+47-->C:\Users\Asmitkumarsharma\Desktop\A1 gym man\app\src\main\AndroidManifest.xml:31:13-62
 48            android:authorities="com.a1gym.manager.provider"
-48-->C:\Users\Asmitkumarsharma\Downloads\a1\app\src\main\AndroidManifest.xml:32:13-60
+48-->C:\Users\Asmitkumarsharma\Desktop\A1 gym man\app\src\main\AndroidManifest.xml:32:13-60
 49            android:exported="false"
-49-->C:\Users\Asmitkumarsharma\Downloads\a1\app\src\main\AndroidManifest.xml:33:13-37
+49-->C:\Users\Asmitkumarsharma\Desktop\A1 gym man\app\src\main\AndroidManifest.xml:33:13-37
 50            android:grantUriPermissions="true" >
-50-->C:\Users\Asmitkumarsharma\Downloads\a1\app\src\main\AndroidManifest.xml:34:13-47
+50-->C:\Users\Asmitkumarsharma\Desktop\A1 gym man\app\src\main\AndroidManifest.xml:34:13-47
 51            <meta-data
-51-->C:\Users\Asmitkumarsharma\Downloads\a1\app\src\main\AndroidManifest.xml:35:13-37:54
+51-->C:\Users\Asmitkumarsharma\Desktop\A1 gym man\app\src\main\AndroidManifest.xml:35:13-37:54
 52                android:name="android.support.FILE_PROVIDER_PATHS"
-52-->C:\Users\Asmitkumarsharma\Downloads\a1\app\src\main\AndroidManifest.xml:36:17-67
+52-->C:\Users\Asmitkumarsharma\Desktop\A1 gym man\app\src\main\AndroidManifest.xml:36:17-67
 53                android:resource="@xml/file_paths" />
-53-->C:\Users\Asmitkumarsharma\Downloads\a1\app\src\main\AndroidManifest.xml:37:17-51
+53-->C:\Users\Asmitkumarsharma\Desktop\A1 gym man\app\src\main\AndroidManifest.xml:37:17-51
 54        </provider>
 55        <provider
 55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Asmitkumarsharma\.gradle\caches\transforms-3\25abbeecbe11c7e68607941a05ec33de\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20

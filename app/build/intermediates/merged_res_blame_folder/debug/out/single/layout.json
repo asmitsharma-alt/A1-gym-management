@@ -4,20 +4,20 @@
         "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-55:\\layout\\item_plan.xml"
     },
     {
-        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-mergeDebugResources-52:\\layout\\fragment_dashboard.xml",
-        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-55:\\layout\\fragment_dashboard.xml"
-    },
-    {
         "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-mergeDebugResources-52:\\layout\\fragment_plan_management.xml",
         "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-55:\\layout\\fragment_plan_management.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-mergeDebugResources-52:\\layout\\fragment_dashboard.xml",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-55:\\layout\\fragment_dashboard.xml"
     },
     {
         "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-mergeDebugResources-52:\\layout\\fragment_settings.xml",
         "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-55:\\layout\\fragment_settings.xml"
     },
     {
-        "merged": "com.a1gym.manager.app-mergeDebugResources-52:/layout/dialog_renew_member.xml",
-        "source": "com.a1gym.manager.app-main-55:/layout/dialog_renew_member.xml"
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-mergeDebugResources-52:\\layout\\fragment_member_list.xml",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-55:\\layout\\fragment_member_list.xml"
     },
     {
         "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-mergeDebugResources-52:\\layout\\activity_main.xml",
@@ -28,16 +28,20 @@
         "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-55:\\layout\\fragment_member_profile.xml"
     },
     {
-        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-mergeDebugResources-52:\\layout\\fragment_member_list.xml",
-        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-55:\\layout\\fragment_member_list.xml"
-    },
-    {
         "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-mergeDebugResources-52:\\layout\\fragment_payment_history.xml",
         "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-55:\\layout\\fragment_payment_history.xml"
     },
     {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-mergeDebugResources-52:\\layout\\layout_invoice.xml",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-55:\\layout\\layout_invoice.xml"
+    },
+    {
         "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-mergeDebugResources-52:\\layout\\item_member.xml",
         "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-55:\\layout\\item_member.xml"
+    },
+    {
+        "merged": "com.a1gym.manager.app-mergeDebugResources-52:/layout/layout_invoice.xml",
+        "source": "com.a1gym.manager.app-main-55:/layout/layout_invoice.xml"
     },
     {
         "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-mergeDebugResources-52:\\layout\\dialog_renew_member.xml",

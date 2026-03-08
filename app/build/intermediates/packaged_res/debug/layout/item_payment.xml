@@ -4,77 +4,97 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginHorizontal="8dp"
-    android:layout_marginVertical="4dp"
-    app:cardCornerRadius="12dp"
-    app:cardElevation="2dp"
+    android:layout_marginHorizontal="20dp"
+    android:layout_marginVertical="8dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="0dp"
     app:strokeWidth="1dp"
-    app:strokeColor="#E0E0E0">
+    app:strokeColor="@color/stroke_subtle">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="16dp">
+        android:padding="20dp">
 
-        <ImageView
-            android:id="@+id/ivPaymentIcon"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:background="@drawable/circle_background"
-            android:padding="8dp"
-            android:src="@android:drawable/ic_menu_recent_history"
-            app:tint="?attr/colorPrimary"
+        <!-- Payment Method Icon -->
+        <FrameLayout
+            android:id="@+id/flPaymentIcon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent" />
+            app:layout_constraintBottom_toBottomOf="parent">
 
+            <View
+                android:id="@+id/vIconBg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/circle_background" />
+
+            <ImageView
+                android:id="@+id/ivPaymentIcon"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_payments"
+                app:tint="@color/colorPrimary" />
+        </FrameLayout>
+
+        <!-- Invoice Number -->
         <TextView
             android:id="@+id/tvInvoiceNumber"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
+            android:layout_marginStart="14dp"
             android:layout_marginEnd="8dp"
             tools:text="INV-123456789"
-            android:textSize="16sp"
+            android:textSize="15sp"
             android:textStyle="bold"
             android:textColor="@color/text_primary"
+            android:fontFamily="sans-serif-medium"
             app:layout_constraintEnd_toStartOf="@id/tvAmount"
-            app:layout_constraintStart_toEndOf="@id/ivPaymentIcon"
+            app:layout_constraintStart_toEndOf="@id/flPaymentIcon"
             app:layout_constraintTop_toTopOf="parent" />
 
+        <!-- Payment Date -->
         <TextView
             android:id="@+id/tvPaymentDate"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            tools:text="12 Oct 2026"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="2dp"
+            tools:text="12 Oct 2026, 10:30 AM"
             android:textColor="@color/text_secondary"
-            android:textSize="14sp"
-            app:layout_constraintStart_toEndOf="@id/ivPaymentIcon"
+            android:textSize="13sp"
+            app:layout_constraintStart_toEndOf="@id/flPaymentIcon"
             app:layout_constraintTop_toBottomOf="@id/tvInvoiceNumber" />
 
+        <!-- Payment Method -->
         <TextView
             android:id="@+id/tvPaymentMethod"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
+            android:layout_marginStart="14dp"
             android:layout_marginTop="4dp"
-            tools:text="Method: UPI"
-            android:textColor="@color/text_secondary"
+            tools:text="UPI"
+            android:textColor="@color/text_hint"
             android:textSize="12sp"
-            app:layout_constraintStart_toEndOf="@id/ivPaymentIcon"
+            app:layout_constraintStart_toEndOf="@id/flPaymentIcon"
             app:layout_constraintTop_toBottomOf="@id/tvPaymentDate" />
 
+        <!-- Amount -->
         <TextView
             android:id="@+id/tvAmount"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             tools:text="₹8000"
             android:textColor="@color/status_active"
-            android:textSize="16sp"
+            android:textSize="18sp"
             android:textStyle="bold"
+            android:fontFamily="sans-serif-medium"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

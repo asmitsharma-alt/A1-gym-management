@@ -11,28 +11,38 @@
 - **Payment tracking:** Record and monitor member payments.
 - **Membership expiry alerts:** Get notified when a member's plan is about to expire.
 - **Member profile management:** View and update individual member profiles.
-- **Invoice generation:** Automatically generate and share professional invoices.
+- **Premium Invoice Generation:** Automatically generate, scale, and export high-quality, pixel-perfect A4 PDF receipts. Features an advanced XML-to-PDF rendering engine, custom gym branding (Logo, Stamp), and structured billing tables.
 - **Offline database support:** Fully functional without an internet connection.
-- **Clean minimal user interface:** Easy to use, fast, and highly intuitive.
+- **Modern Premium UI/UX:** Clean, intuitive interface inspired by top-tier SaaS fitness applications, built with modern spacing, typography, and flat-card design philosophies.
 
 ---
 
 ## Screenshots
 
 ### Dashboard
-![Dashboard](screenshot/Dashboard.jpeg)
+![Dashboard](screenshot/dashboard.jpeg)
 
-### Add Member Screen
-![Add Member](screenshot/Add%20Member%20Screen.jpeg)
+### Add Member
+![Add Member 1](screenshot/add%20member%201.jpeg)
+![Add Member 2](screenshot/add%20member%202.jpeg)
 
 ### Member List
-![Member List](screenshot/Member%20List.jpeg)
+![Member List](screenshot/member%20list.jpeg)
 
 ### Member Profile
-![Member Profile](screenshot/Member%20Profile.jpeg)
+![Member Profile](screenshot/member%20profile.jpeg)
 
 ### Payment History
-![Payment History](screenshot/Payment%20History.jpeg)
+![Payment History](screenshot/payment%20history.jpeg)
+
+### Payment Receipt (PDF)
+![Payment Receipt](screenshot/payment%20receipt.jpeg)
+
+### Manage Plans
+![Manage Plans](screenshot/manage%20plan.jpeg)
+
+### Settings
+![Settings](screenshot/setting.jpeg)
 
 ---
 
@@ -65,7 +75,7 @@ Follow these steps to run the project locally on your machine.
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/asmitsharma-alt/A1-gym-management.git
+   git clone https://github.com/username/a1-gym-manager.git
    ```
 
 2. **Open the project in Android Studio**

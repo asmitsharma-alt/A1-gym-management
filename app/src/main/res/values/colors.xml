@@ -1,20 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Primary: Dark Blue -->
-    <color name="colorPrimary">#1A237E</color>
-    <color name="colorPrimaryVariant">#000051</color>
-    <!-- Accent: Electric Blue -->
-    <color name="colorAccent">#2962FF</color>
-    <!-- Background: Light Grey -->
-    <color name="colorBackground">#F5F6FA</color>
+    <!-- Primary: Deep Blue -->
+    <color name="colorPrimary">#2D3B8F</color>
+    <color name="colorPrimaryVariant">#1A2560</color>
+    <color name="colorPrimaryLight">#E8EAF6</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
 
+    <!-- Accent / Secondary -->
+    <color name="colorAccent">#4CAF50</color>
+    <color name="colorSecondary">#4CAF50</color>
+
+    <!-- Background -->
+    <color name="colorBackground">#F8F9FA</color>
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorOnSurface">#111827</color>
+    <color name="colorStatusBar">#1A2560</color>
+
+    <!-- Text Colors -->
     <color name="white">#FFFFFF</color>
     <color name="black">#000000</color>
-    <color name="text_primary">#212121</color>
-    <color name="text_secondary">#757575</color>
-    
+    <color name="text_primary">#111827</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="text_hint">#9CA3AF</color>
+
+    <!-- UI Elements -->
+    <color name="stroke_subtle">#F3F4F6</color>
+
     <!-- Status Colors -->
     <color name="status_active">#4CAF50</color>
-    <color name="status_expired">#F44336</color>
-    <color name="status_expiring_soon">#FF9800</color>
+    <color name="status_expired">#EF4444</color>
+    <color name="status_expiring_soon">#F59E0B</color>
+
+    <!-- Status Light Backgrounds -->
+    <color name="status_active_bg">#E8F5E9</color>
+    <color name="status_expired_bg">#FEE2E2</color>
+    <color name="status_expiring_soon_bg">#FEF3C7</color>
+
+    <!-- Card specific icon backgrounds -->
+    <color name="icon_bg_members">#E8EAF6</color>
+    <color name="icon_bg_active">#E8F5E9</color>
+    <color name="icon_bg_revenue">#FFF3E0</color>
+    <color name="icon_bg_expired">#FEE2E2</color>
+
+    <!-- Icon tints -->
+    <color name="icon_tint_members">#2D3B8F</color>
+    <color name="icon_tint_active">#4CAF50</color>
+    <color name="icon_tint_revenue">#FF9800</color>
+    <color name="icon_tint_expired">#EF4444</color>
+
+    <!-- Bottom Nav -->
+    <color name="bottom_nav_inactive">#9CA3AF</color>
+
+    <!-- Divider -->
+    <color name="divider">#E5E7EB</color>
+
+    <!-- Shimmer / Subtle -->
+    <color name="shimmer_bg">#F3F4F6</color>
 </resources>

@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:padding="24dp">
+    android:padding="24dp"
+    android:background="@drawable/bg_dialog">
 
     <TextView
         android:layout_width="wrap_content"
@@ -12,11 +13,13 @@
         android:text="Renew Membership"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:layout_marginBottom="16dp" />
+        android:textColor="@color/text_primary"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginBottom="20dp" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/tilPlanDialog"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        style="@style/Widget.A1Gym.TextInputLayout.Dropdown"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -32,15 +35,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="12dp"
         android:weightSum="2">
 
         <com.google.android.material.textfield.TextInputLayout
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            style="@style/Widget.A1Gym.TextInputLayout"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:layout_marginEnd="8dp">
+            android:layout_marginEnd="6dp">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/etStartDateDialog"
@@ -52,11 +55,11 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            style="@style/Widget.A1Gym.TextInputLayout"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:layout_marginStart="8dp">
+            android:layout_marginStart="6dp">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/etEndDateDialog"
@@ -69,10 +72,10 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/tilAmountDialog"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        style="@style/Widget.A1Gym.TextInputLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp">
+        android:layout_marginTop="12dp">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/etAmountDialog"
@@ -84,10 +87,10 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/tilPaymentMethodDialog"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        style="@style/Widget.A1Gym.TextInputLayout.Dropdown"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp">
+        android:layout_marginTop="12dp">
 
         <AutoCompleteTextView
             android:id="@+id/actvPaymentMethodDialog"
@@ -106,17 +109,20 @@
 
         <Button
             android:id="@+id/btnCancelDialog"
-            style="@style/Widget.MaterialComponents.Button.TextButton"
+            style="@style/Widget.A1Gym.Button.Text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Cancel"
+            android:textColor="@color/text_secondary"
             android:layout_marginEnd="8dp" />
 
         <Button
             android:id="@+id/btnRenewDialog"
+            style="@style/Widget.A1Gym.Button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Renew" />
+            android:text="Renew"
+            android:paddingHorizontal="24dp" />
     </LinearLayout>
 
 </LinearLayout>

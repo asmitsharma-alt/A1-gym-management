@@ -1,0 +1,254 @@
+[
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\drawable_status_background.xml.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\drawable\\status_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\mipmap-xxhdpi_ic_launcher_logo_round.png.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\mipmap-xxhdpi\\ic_launcher_logo_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\drawable_bg_icon_active.xml.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\drawable\\bg_icon_active.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\mipmap-xhdpi_ic_launcher_logo.png.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\mipmap-xhdpi\\ic_launcher_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\layout_layout_invoice.xml.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\layout\\layout_invoice.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\drawable_circle_white.xml.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\drawable\\circle_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\drawable_ic_view_members.xml.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\drawable\\ic_view_members.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\mipmap-mdpi_ic_launcher_logo.png.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\mipmap-mdpi\\ic_launcher_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\layout_fragment_payment_history.xml.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\layout\\fragment_payment_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\mipmap-mdpi_ic_launcher_logo_round.png.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\mipmap-mdpi\\ic_launcher_logo_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\mipmap-hdpi_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\mipmap-hdpi\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\layout_fragment_settings.xml.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\layout\\fragment_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\drawable_ic_payments.xml.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\drawable\\ic_payments.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\mipmap-hdpi_ic_launcher_logo_round.png.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\mipmap-hdpi\\ic_launcher_logo_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\xml_file_paths.xml.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\xml\\file_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\color_chip_bg_selector.xml.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\color\\chip_bg_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\drawable_ic_plus.xml.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\drawable\\ic_plus.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\layout_item_plan.xml.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\layout\\item_plan.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\drawable_bg_icon_expired.xml.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\drawable\\bg_icon_expired.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\layout_fragment_add_member.xml.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\layout\\fragment_add_member.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\drawable_ic_share.xml.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\drawable\\ic_share.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\layout_item_payment.xml.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\layout\\item_payment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\drawable_ic_add_member.xml.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\drawable\\ic_add_member.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\drawable_bg_dialog.xml.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\drawable\\bg_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\mipmap-xxxhdpi_ic_launcher_logo.png.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\mipmap-xxxhdpi\\ic_launcher_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\drawable_ic_active.xml.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\drawable\\ic_active.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\drawable_bg_quick_action.xml.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\drawable\\bg_quick_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\drawable_ic_nav_payments.xml.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\drawable\\ic_nav_payments.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\drawable_ic_nav_dashboard.xml.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\drawable\\ic_nav_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\drawable_ic_search.xml.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\drawable\\ic_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\mipmap-hdpi_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\mipmap-hdpi\\ic_launcher.xml"
+    },
+    {
+        "merged": "com.a1gym.manager.app-merged_res-53:/layout_fragment_member_list.xml.flat",
+        "source": "com.a1gym.manager.app-main-54:/layout/fragment_member_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\drawable_ic_filter.xml.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\drawable\\ic_filter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\layout_fragment_member_profile.xml.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\layout\\fragment_member_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\drawable_ic_phone.xml.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\drawable\\ic_phone.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\layout_dialog_renew_member.xml.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\layout\\dialog_renew_member.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\color_bottom_nav_selector.xml.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\color\\bottom_nav_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\drawable_ic_expired.xml.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\drawable\\ic_expired.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\color_chip_text_selector.xml.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\color\\chip_text_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\drawable_ic_nav_settings.xml.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\drawable\\ic_nav_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\drawable_circle_background.xml.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\drawable\\circle_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\layout_fragment_plan_management.xml.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\layout\\fragment_plan_management.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\mipmap-xhdpi_ic_launcher_logo_round.png.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\mipmap-xhdpi\\ic_launcher_logo_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\drawable_bg_icon_revenue.xml.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\drawable\\bg_icon_revenue.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\layout_fragment_dashboard.xml.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\layout\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\drawable_ic_nav_members.xml.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\drawable\\ic_nav_members.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\drawable_a1_gym_logo.png.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\drawable\\a1_gym_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\drawable_ic_members.xml.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\drawable\\ic_members.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\mipmap-hdpi_ic_launcher_logo.png.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\mipmap-hdpi\\ic_launcher_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\mipmap-xxhdpi_ic_launcher_logo.png.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\mipmap-xxhdpi\\ic_launcher_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\layout_fragment_member_list.xml.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\layout\\fragment_member_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\navigation_nav_graph.xml.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\navigation\\nav_graph.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\layout_item_member.xml.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\layout\\item_member.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\drawable_ic_revenue.xml.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\drawable\\ic_revenue.xml"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\mipmap-xxxhdpi_ic_launcher_logo_round.png.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\mipmap-xxxhdpi\\ic_launcher_logo_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-merged_res-53:\\drawable_shape_stamp_placeholder.xml.flat",
+        "source": "C:\\Users\\Asmitkumarsharma\\.gradle\\daemon\\8.4\\com.a1gym.manager.app-main-54:\\drawable\\shape_stamp_placeholder.xml"
+    }
+]

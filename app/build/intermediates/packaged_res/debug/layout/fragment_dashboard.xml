@@ -4,227 +4,393 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="?android:attr/windowBackground">
+    android:background="@color/colorBackground"
+    android:clipToPadding="false">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="16dp">
+        android:orientation="vertical"
+        android:padding="20dp">
 
-        <!-- Overview Cards -->
-        <com.google.android.material.card.MaterialCardView
-            android:id="@+id/cardTotalMembers"
-            android:layout_width="0dp"
+        <!-- ============ STAT CARDS ROW 1 ============ -->
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="8dp"
-            app:cardCornerRadius="16dp"
-            app:cardElevation="2dp"
-            app:layout_constraintEnd_toStartOf="@id/cardActiveMembers"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
-            
-            <LinearLayout
-                android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <!-- Total Members Card -->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardTotalMembers"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:padding="16dp">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Total Members"
-                    android:textColor="?attr/colorPrimary"/>
-                <TextView
-                    android:id="@+id/tvTotalMembers"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="0"
-                    android:textSize="24sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/black"/>
-            </LinearLayout>
-        </com.google.android.material.card.MaterialCardView>
+                android:layout_weight="1"
+                android:layout_marginEnd="8dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="2dp"
+                app:strokeWidth="0dp">
 
-        <com.google.android.material.card.MaterialCardView
-            android:id="@+id/cardActiveMembers"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            app:cardCornerRadius="16dp"
-            app:cardElevation="2dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@id/cardTotalMembers"
-            app:layout_constraintTop_toTopOf="parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
 
-            <LinearLayout
-                android:layout_width="match_parent"
+                    <FrameLayout
+                        android:layout_width="56dp"
+                        android:layout_height="56dp"
+                        android:layout_marginBottom="16dp">
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/circle_background" />
+
+                        <ImageView
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_members"
+                            android:contentDescription="Members icon" />
+                    </FrameLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Total Members"
+                        style="@style/TextAppearance.A1Gym.CardTitle" />
+
+                    <TextView
+                        android:id="@+id/tvTotalMembers"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:layout_marginTop="4dp"
+                        style="@style/TextAppearance.A1Gym.CardValue" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Active Members Card -->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardActiveMembers"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:padding="16dp">
-                <TextView
-                    android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="8dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="2dp"
+                app:strokeWidth="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Active Members"
-                    android:textColor="?attr/colorPrimary"/>
-                <TextView
-                    android:id="@+id/tvActiveMembers"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="0"
-                    android:textSize="24sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/status_active"/>
-            </LinearLayout>
-        </com.google.android.material.card.MaterialCardView>
-        
-        <com.google.android.material.card.MaterialCardView
-            android:id="@+id/cardRevenue"
-            android:layout_width="0dp"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <FrameLayout
+                        android:layout_width="56dp"
+                        android:layout_height="56dp"
+                        android:layout_marginBottom="16dp">
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/bg_icon_active" />
+
+                        <ImageView
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_active"
+                            android:contentDescription="Active icon" />
+                    </FrameLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Active Members"
+                        style="@style/TextAppearance.A1Gym.CardTitle" />
+
+                    <TextView
+                        android:id="@+id/tvActiveMembers"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textColor="@color/status_active"
+                        android:layout_marginTop="4dp"
+                        style="@style/TextAppearance.A1Gym.CardValue" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+
+        <!-- ============ STAT CARDS ROW 2 ============ -->
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:orientation="horizontal"
             android:layout_marginTop="16dp"
-            android:layout_marginEnd="8dp"
-            app:cardCornerRadius="16dp"
-            app:cardElevation="2dp"
-            app:layout_constraintEnd_toStartOf="@id/cardExpiredMembers"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/cardTotalMembers">
-            
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:padding="16dp">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Today Revenue"
-                    android:textColor="?attr/colorPrimary"/>
-                <TextView
-                    android:id="@+id/tvTodayRevenue"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="₹0"
-                    android:textSize="24sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/black"/>
-            </LinearLayout>
-        </com.google.android.material.card.MaterialCardView>
+            android:weightSum="2">
 
-        <com.google.android.material.card.MaterialCardView
-            android:id="@+id/cardExpiredMembers"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="16dp"
-            app:cardCornerRadius="16dp"
-            app:cardElevation="2dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@id/cardRevenue"
-            app:layout_constraintTop_toBottomOf="@id/cardActiveMembers">
-
-            <LinearLayout
-                android:layout_width="match_parent"
+            <!-- Today's Revenue Card -->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardRevenue"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:padding="16dp">
-                <TextView
-                    android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="8dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="2dp"
+                app:strokeWidth="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Expired Members"
-                    android:textColor="?attr/colorPrimary"/>
-                <TextView
-                    android:id="@+id/tvExpiredMembers"
-                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <FrameLayout
+                        android:layout_width="56dp"
+                        android:layout_height="56dp"
+                        android:layout_marginBottom="16dp">
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/bg_icon_revenue" />
+
+                        <ImageView
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_revenue"
+                            android:contentDescription="Revenue icon" />
+                    </FrameLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Today's Revenue"
+                        style="@style/TextAppearance.A1Gym.CardTitle" />
+
+                    <TextView
+                        android:id="@+id/tvTodayRevenue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="₹0"
+                        android:layout_marginTop="4dp"
+                        style="@style/TextAppearance.A1Gym.CardValue" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Expired Members Card -->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardExpiredMembers"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="8dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="2dp"
+                app:strokeWidth="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="0"
-                    android:textSize="24sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/status_expired"/>
-            </LinearLayout>
-        </com.google.android.material.card.MaterialCardView>
-        
-        <!-- Quick Actions -->
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <FrameLayout
+                        android:layout_width="56dp"
+                        android:layout_height="56dp"
+                        android:layout_marginBottom="16dp">
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/bg_icon_expired" />
+
+                        <ImageView
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_expired"
+                            android:contentDescription="Expired icon" />
+                    </FrameLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Expired Members"
+                        style="@style/TextAppearance.A1Gym.CardTitle" />
+
+                    <TextView
+                        android:id="@+id/tvExpiredMembers"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textColor="@color/status_expired"
+                        android:layout_marginTop="4dp"
+                        style="@style/TextAppearance.A1Gym.CardValue" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+
+        <!-- ============ QUICK ACTIONS ============ -->
         <TextView
             android:id="@+id/tvQuickActions"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
+            android:layout_marginBottom="12dp"
             android:text="Quick Actions"
-            android:textStyle="bold"
-            android:textSize="18sp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/cardRevenue" />
-            
+            style="@style/TextAppearance.A1Gym.SectionTitle" />
+
         <LinearLayout
             android:id="@+id/llQuickActions"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="12dp"
             android:orientation="horizontal"
-            android:weightSum="4"
-            app:layout_constraintTop_toBottomOf="@id/tvQuickActions">
-            
-            <ImageButton
-                android:id="@+id/btnAddMember"
+            android:weightSum="4">
+
+            <!-- Add Member -->
+            <LinearLayout
                 android:layout_width="0dp"
-                android:layout_height="56dp"
+                android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:src="@android:drawable/ic_input_add"
-                android:background="?attr/selectableItemBackgroundBorderless"
-                android:contentDescription="Add Member"
-                app:tint="?attr/colorPrimary" />
-                
-            <ImageButton
-                android:id="@+id/btnViewMembers"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="8dp">
+
+                <ImageButton
+                    android:id="@+id/btnAddMember"
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:padding="14dp"
+                    android:src="@drawable/ic_add_member"
+                    android:background="@drawable/bg_quick_action"
+                    android:scaleType="fitCenter"
+                    android:contentDescription="Add Member"
+                    app:tint="@color/colorPrimary" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Add"
+                    android:textSize="12sp"
+                    android:textColor="@color/text_secondary"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <!-- View Members -->
+            <LinearLayout
                 android:layout_width="0dp"
-                android:layout_height="56dp"
+                android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:src="@android:drawable/ic_menu_myplaces"
-                android:background="?attr/selectableItemBackgroundBorderless"
-                android:contentDescription="View Members"
-                app:tint="?attr/colorPrimary" />
-                
-            <ImageButton
-                android:id="@+id/btnPayments"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="8dp">
+
+                <ImageButton
+                    android:id="@+id/btnViewMembers"
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:padding="14dp"
+                    android:src="@drawable/ic_view_members"
+                    android:background="@drawable/bg_quick_action"
+                    android:scaleType="fitCenter"
+                    android:contentDescription="View Members"
+                    app:tint="@color/colorPrimary" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Members"
+                    android:textSize="12sp"
+                    android:textColor="@color/text_secondary"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <!-- Payments -->
+            <LinearLayout
                 android:layout_width="0dp"
-                android:layout_height="56dp"
+                android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:src="@android:drawable/ic_menu_recent_history"
-                android:background="?attr/selectableItemBackgroundBorderless"
-                android:contentDescription="Payments"
-                app:tint="?attr/colorPrimary" />
-                
-            <ImageButton
-                android:id="@+id/btnGenerateInvoice"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="8dp">
+
+                <ImageButton
+                    android:id="@+id/btnPayments"
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:padding="14dp"
+                    android:src="@drawable/ic_payments"
+                    android:background="@drawable/bg_quick_action"
+                    android:scaleType="fitCenter"
+                    android:contentDescription="Payments"
+                    app:tint="@color/colorPrimary" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Payments"
+                    android:textSize="12sp"
+                    android:textColor="@color/text_secondary"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <!-- Share App -->
+            <LinearLayout
                 android:layout_width="0dp"
-                android:layout_height="56dp"
+                android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:src="@android:drawable/ic_menu_share"
-                android:background="?attr/selectableItemBackgroundBorderless"
-                android:contentDescription="Generate Invoice"
-                app:tint="?attr/colorPrimary" />
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="8dp">
+
+                <ImageButton
+                    android:id="@+id/btnGenerateInvoice"
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:padding="14dp"
+                    android:src="@drawable/ic_share"
+                    android:background="@drawable/bg_quick_action"
+                    android:scaleType="fitCenter"
+                    android:contentDescription="Share App"
+                    app:tint="@color/colorPrimary" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Share"
+                    android:textSize="12sp"
+                    android:textColor="@color/text_secondary"
+                    android:gravity="center" />
+            </LinearLayout>
         </LinearLayout>
-        
-        <!-- Expiring Soon -->
+
+        <!-- ============ EXPIRING SOON ============ -->
         <TextView
             android:id="@+id/tvExpiringSoon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
+            android:layout_marginBottom="12dp"
             android:text="Memberships Expiring Soon"
-            android:textStyle="bold"
-            android:textSize="18sp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/llQuickActions" />
-            
+            style="@style/TextAppearance.A1Gym.SectionTitle" />
+
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rvExpiringSoon"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="12dp"
             android:nestedScrollingEnabled="false"
-            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-            app:layout_constraintTop_toBottomOf="@id/tvExpiringSoon"
-            app:layout_constraintBottom_toBottomOf="parent"/>
+            android:clipToPadding="false"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
 </androidx.core.widget.NestedScrollView>

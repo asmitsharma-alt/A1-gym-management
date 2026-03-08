@@ -47,10 +47,10 @@ com.a1gym.manager.app-room-runtime-2.6.1-45 C:\Users\Asmitkumarsharma\.gradle\ca
 com.a1gym.manager.app-fragment-1.6.2-46 C:\Users\Asmitkumarsharma\.gradle\caches\transforms-3\d90f888adf9047dd3371e630c93f2bb8\transformed\fragment-1.6.2\res
 com.a1gym.manager.app-lifecycle-viewmodel-ktx-2.7.0-47 C:\Users\Asmitkumarsharma\.gradle\caches\transforms-3\e0676135669f3b07730b2a0430254bef\transformed\lifecycle-viewmodel-ktx-2.7.0\res
 com.a1gym.manager.app-sqlite-framework-2.4.0-48 C:\Users\Asmitkumarsharma\.gradle\caches\transforms-3\faa09bccfc62d4ce7aa3f6fc55e8bd4f\transformed\sqlite-framework-2.4.0\res
-com.a1gym.manager.app-pngs-49 C:\Users\Asmitkumarsharma\Downloads\a1\app\build\generated\res\pngs\debug
-com.a1gym.manager.app-resValues-50 C:\Users\Asmitkumarsharma\Downloads\a1\app\build\generated\res\resValues\debug
-com.a1gym.manager.app-packageDebugResources-51 C:\Users\Asmitkumarsharma\Downloads\a1\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.a1gym.manager.app-packageDebugResources-52 C:\Users\Asmitkumarsharma\Downloads\a1\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.a1gym.manager.app-merged_res-53 C:\Users\Asmitkumarsharma\Downloads\a1\app\build\intermediates\merged_res\debug
-com.a1gym.manager.app-debug-54 C:\Users\Asmitkumarsharma\Downloads\a1\app\src\debug\res
-com.a1gym.manager.app-main-55 C:\Users\Asmitkumarsharma\Downloads\a1\app\src\main\res
+com.a1gym.manager.app-pngs-49 C:\Users\Asmitkumarsharma\Desktop\A1 gym man\app\build\generated\res\pngs\debug
+com.a1gym.manager.app-resValues-50 C:\Users\Asmitkumarsharma\Desktop\A1 gym man\app\build\generated\res\resValues\debug
+com.a1gym.manager.app-packageDebugResources-51 C:\Users\Asmitkumarsharma\Desktop\A1 gym man\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.a1gym.manager.app-packageDebugResources-52 C:\Users\Asmitkumarsharma\Desktop\A1 gym man\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.a1gym.manager.app-merged_res-53 C:\Users\Asmitkumarsharma\Desktop\A1 gym man\app\build\intermediates\merged_res\debug
+com.a1gym.manager.app-debug-54 C:\Users\Asmitkumarsharma\Desktop\A1 gym man\app\src\debug\res
+com.a1gym.manager.app-main-55 C:\Users\Asmitkumarsharma\Desktop\A1 gym man\app\src\main\res

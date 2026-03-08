@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.a1gym.manager.ui.dashboard.DashboardFragment"
+        android:label="Dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/memberListFragment"
+        android:name="com.a1gym.manager.ui.members.MemberListFragment"
+        android:label="Members"
+        tools:layout="@layout/fragment_member_list" />
+
+    <fragment
+        android:id="@+id/paymentHistoryFragment"
+        android:name="com.a1gym.manager.ui.payments.PaymentHistoryFragment"
+        android:label="Payments"
+        tools:layout="@layout/fragment_payment_history" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.a1gym.manager.ui.dashboard.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+        
+    <fragment
+        android:id="@+id/addMemberFragment"
+        android:name="com.a1gym.manager.ui.members.AddMemberFragment"
+        android:label="Add Member"
+        tools:layout="@layout/fragment_add_member" />
+        
+    <fragment
+        android:id="@+id/memberProfileFragment"
+        android:name="com.a1gym.manager.ui.members.MemberProfileFragment"
+        android:label="Member Profile"
+        tools:layout="@layout/fragment_member_profile">
+        <argument
+            android:name="memberId"
+            app:argType="long"
+            android:defaultValue="-1L" />
+    </fragment>
+    
+    <fragment
+        android:id="@+id/planManagementFragment"
+        android:name="com.a1gym.manager.ui.plans.PlanManagementFragment"
+        android:label="Manage Plans"
+        tools:layout="@layout/fragment_plan_management" />
+</navigation>

@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="595px"
+    android:layout_height="842px"
+    android:orientation="vertical"
+    android:background="#FFFFFF"> <!-- Force white background for PDF -->
+
+    <!-- ================= HEADER (CENTERED) ================= -->
+    <LinearLayout
+        android:id="@+id/llHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingVertical="32px"
+        android:paddingHorizontal="32px">
+
+        <ImageView
+            android:id="@+id/ivInvoiceLogo"
+            android:layout_width="80px"
+            android:layout_height="80px"
+            android:src="@drawable/a1_gym_logo"
+            android:scaleType="fitCenter"
+            android:contentDescription="A1 Gym Logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A1 GYM"
+            android:textColor="#111827"
+            android:textSize="28px"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-medium"
+            android:layout_marginTop="8px" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Strength • Fitness • Performance"
+            android:textColor="#4B5563"
+            android:textSize="12px"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12px"
+            android:text="Infront of Shiva Temple, Maya Ram Rd, Kalibari\nKhagaria, Bihar 851204, India"
+            android:textColor="#6B7280"
+            android:textSize="10px"
+            android:gravity="center"
+            android:lineSpacingExtra="2px" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone: +91 87002 30443"
+            android:textColor="#4B5563"
+            android:textSize="10px"
+            android:textStyle="bold"
+            android:layout_marginTop="4px" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#1A2560"
+        android:layout_marginHorizontal="32px" />
+
+    <!-- ================= PAYMENT RECEIPT TITLE ================= -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PAYMENT RECEIPT"
+        android:textColor="#1A2560"
+        android:textSize="20px"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingVertical="16px"
+        android:letterSpacing="0.1" />
+
+    <!-- ================= INVOICE INFO & BILL TO ================= -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingHorizontal="32px"
+        android:paddingBottom="16px">
+
+        <!-- BILL TO (Left) -->
+        <LinearLayout
+            android:id="@+id/llBillTo"
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Billed To:"
+                android:textColor="#6B7280"
+                android:textSize="10px"
+                android:textStyle="bold"
+                android:layout_marginBottom="4px" />
+
+            <TextView
+                android:id="@+id/tvMemberName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Asmit Sharma"
+                android:textColor="#111827"
+                android:textSize="14px"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvMemberPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="+91 98765 43210"
+                android:textColor="#4B5563"
+                android:textSize="10px"
+                android:layout_marginTop="2px" />
+                
+            <TextView
+                android:id="@+id/tvMemberAddress"
+                android:layout_width="160px"
+                android:layout_height="wrap_content"
+                tools:text="123 Example Street"
+                android:textColor="#4B5563"
+                android:textSize="10px"
+                android:layout_marginTop="2px" />
+
+            <TextView
+                android:id="@+id/tvMemberId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="ID: MEM-102"
+                android:textColor="#4B5563"
+                android:textSize="10px"
+                android:layout_marginTop="2px" />
+        </LinearLayout>
+
+        <!-- INVOICE INFO (Right) -->
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="end">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="60px"
+                    android:layout_height="wrap_content"
+                    android:text="Invoice No:"
+                    android:textColor="#6B7280"
+                    android:textSize="10px"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/tvInvoiceNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="INV-20231015"
+                    android:textColor="#111827"
+                    android:textSize="10px"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="4px">
+                <TextView
+                    android:layout_width="60px"
+                    android:layout_height="wrap_content"
+                    android:text="Date:"
+                    android:textColor="#6B7280"
+                    android:textSize="10px"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/tvInvoiceDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="15 Oct 2023"
+                    android:textColor="#111827"
+                    android:textSize="10px"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PAID"
+                android:textColor="#166534"
+                android:textSize="12px"
+                android:textStyle="bold"
+                android:paddingHorizontal="12px"
+                android:paddingVertical="4px"
+                android:background="#DCFCE7"
+                android:layout_marginTop="8px" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- ================= TABLE HEADER ================= -->
+    <LinearLayout
+        android:id="@+id/llTableHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="32px"
+        android:layout_marginTop="16px"
+        android:paddingVertical="8px"
+        android:paddingHorizontal="16px"
+        android:background="#1A2560">
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:text="DESCRIPTION"
+            android:textColor="#FFFFFF"
+            android:textSize="10px"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="QTY"
+            android:textColor="#FFFFFF"
+            android:textSize="10px"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="PRICE"
+            android:textColor="#FFFFFF"
+            android:textSize="10px"
+            android:textStyle="bold"
+            android:gravity="end" />
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_weight="1.5"
+            android:layout_height="wrap_content"
+            android:text="TOTAL"
+            android:textColor="#FFFFFF"
+            android:textSize="10px"
+            android:textStyle="bold"
+            android:gravity="end" />
+    </LinearLayout>
+
+    <!-- ================= TABLE BODY ================= -->
+    <LinearLayout
+        android:id="@+id/llTableBody"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="32px"
+        android:paddingVertical="16px"
+        android:paddingHorizontal="16px"
+        android:background="#F8F9FA">
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tvPlanName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Gym Membership (6 Month Plan)"
+                android:textColor="#111827"
+                android:textSize="12px"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/tvPlanDuration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Validity: 15 Oct 2023 → 15 Apr 2024"
+                android:textColor="#4B5563"
+                android:textSize="10px"
+                android:layout_marginTop="4px" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textColor="#111827"
+            android:textSize="12px"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/tvItemPrice"
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            tools:text="₹4,500"
+            android:textColor="#111827"
+            android:textSize="12px"
+            android:gravity="end" />
+
+        <TextView
+            android:id="@+id/tvItemTotal"
+            android:layout_width="0px"
+            android:layout_weight="1.5"
+            android:layout_height="wrap_content"
+            tools:text="₹4,500"
+            android:textColor="#111827"
+            android:textSize="12px"
+            android:textStyle="bold"
+            android:gravity="end" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#E5E7EB"
+        android:layout_marginHorizontal="32px" />
+
+    <!-- ================= BOTTOM SECTION: PAYMENT DETAILS & SUMMARY ================= -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="24px"
+        android:paddingHorizontal="32px">
+
+        <!-- Payment Method Box -->
+        <LinearLayout
+            android:id="@+id/llPaymentMethod"
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16px"
+            android:background="#F8F9FA">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PAYMENT DETAILS"
+                android:textColor="#6B7280"
+                android:textSize="10px"
+                android:textStyle="bold"
+                android:layout_marginBottom="8px" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="60px"
+                    android:layout_height="wrap_content"
+                    android:text="Method:"
+                    android:textColor="#4B5563"
+                    android:textSize="10px" />
+                <TextView
+                    android:id="@+id/tvPaymentMethod"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="UPI"
+                    android:textColor="#111827"
+                    android:textSize="10px"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="2px">
+                <TextView
+                    android:layout_width="60px"
+                    android:layout_height="wrap_content"
+                    android:text="Txn ID:"
+                    android:textColor="#4B5563"
+                    android:textSize="10px" />
+                <TextView
+                    android:id="@+id/tvTransactionId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="N/A"
+                    android:textColor="#111827"
+                    android:textSize="10px"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="2px">
+                <TextView
+                    android:layout_width="60px"
+                    android:layout_height="wrap_content"
+                    android:text="Payment Date:"
+                    android:textColor="#4B5563"
+                    android:textSize="10px" />
+                <TextView
+                    android:id="@+id/tvPaymentDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="15 Oct 2023"
+                    android:textColor="#111827"
+                    android:textSize="10px"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Spacer -->
+        <View
+            android:layout_width="32px"
+            android:layout_height="match_parent" />
+
+        <!-- Summary column -->
+        <LinearLayout
+            android:id="@+id/llSummary"
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0px"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="Subtotal"
+                    android:textColor="#4B5563"
+                    android:textSize="12px" />
+                <TextView
+                    android:id="@+id/tvSubtotal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="₹4,500"
+                    android:textColor="#111827"
+                    android:textSize="12px"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8px">
+                <TextView
+                    android:layout_width="0px"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="Discount"
+                    android:textColor="#4B5563"
+                    android:textSize="12px" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    text="₹0"
+                    android:textColor="#111827"
+                    android:textSize="12px"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#E5E7EB"
+                android:layout_marginVertical="8px" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0px"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="Total Amount Paid"
+                    android:textColor="#111827"
+                    android:textSize="12px"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/tvTotalAmount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="₹4,500"
+                    android:textColor="#1A2560"
+                    android:textSize="16px"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1" /> <!-- Spacer to push footer to bottom -->
+
+    <!-- ================= FOOTER ================= -->
+    <LinearLayout
+        android:id="@+id/llFooter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="32px"
+        android:paddingBottom="24px">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="24px">
+
+            <!-- Signatures -->
+            <LinearLayout
+                android:layout_width="0px"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+                <View
+                    android:layout_width="140px"
+                    android:layout_height="1px"
+                    android:background="#111827"
+                    android:layout_marginBottom="8px" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Authorized Signature"
+                    android:textColor="#4B5563"
+                    android:textSize="12px" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0px"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+                
+                <FrameLayout
+                    android:layout_width="80px"
+                    android:layout_height="80px"
+                    android:layout_marginBottom="8px">
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/shape_stamp_placeholder" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="STAMP"
+                        android:textColor="#E5E7EB"
+                        android:textSize="14px"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:rotation="-15" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#E5E7EB"
+            android:layout_marginBottom="16px" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thank you for choosing A1 GYM. Stay strong and stay fit!"
+            android:textColor="#111827"
+            android:textSize="12px"
+            android:textStyle="bold"
+            android:gravity="center" />
+            
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is a computer-generated receipt."
+            android:textColor="#9CA3AF"
+            android:textSize="8px"
+            android:gravity="center"
+            android:layout_marginTop="4px" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -27,6 +27,8 @@ import android.app.Dialog
 import android.widget.ArrayAdapter
 import android.view.Window
 import android.app.DatePickerDialog
+import android.content.Intent
+import android.net.Uri
 import com.a1gym.manager.data.entity.Plan
 import com.a1gym.manager.data.entity.Payment
 import com.a1gym.manager.databinding.DialogRenewMemberBinding
@@ -70,7 +72,6 @@ class MemberProfileFragment : Fragment() {
 
     private fun loadMember() {
         viewLifecycleOwner.lifecycleScope.launch {
-            // Need a getMemberById in ViewModel, but we can access repository momentarily
             val database = AppDatabase.getDatabase(requireContext(), lifecycleScope)
             val member = database.memberDao().getMemberById(memberId)
             
@@ -88,6 +89,7 @@ class MemberProfileFragment : Fragment() {
         binding.tvDates.text = "${dateFormat.format(Date(member.startDate))} - ${dateFormat.format(Date(member.endDate))}"
 
         if (!member.photoUri.isNullOrEmpty()) {
+            binding.ivMemberPhoto.setPadding(0, 0, 0, 0)
             Glide.with(requireContext())
                 .load(member.photoUri)
                 .circleCrop()
@@ -101,8 +103,8 @@ class MemberProfileFragment : Fragment() {
         binding.tvStatus.text = member.status
         val statusColor = when (member.status) {
             "Active" -> Color.parseColor("#4CAF50")
-            "Expired" -> Color.parseColor("#F44336")
-            "Expiring Soon" -> Color.parseColor("#FF9800")
+            "Expired" -> Color.parseColor("#EF4444")
+            "Expiring Soon" -> Color.parseColor("#F59E0B")
             else -> Color.GRAY
         }
         
@@ -112,11 +114,10 @@ class MemberProfileFragment : Fragment() {
         } else {
             val newBg = GradientDrawable()
             newBg.setColor(statusColor)
-            newBg.cornerRadius = 16f
+            newBg.cornerRadius = 40f
             binding.tvStatus.background = newBg
         }
         
-        // Fetch Plan Name (A simple suspend query could be added if needed, sticking to ID trace for now. Or just hardcode since Plan is retrieved logic)
         binding.tvPlanNames.text = "Plan Details (ID: ${member.planId})"
     }
 
@@ -138,6 +139,19 @@ class MemberProfileFragment : Fragment() {
         
         binding.btnRenew.setOnClickListener {
             showRenewDialog()
+        }
+
+        binding.btnCallMember.setOnClickListener {
+            currentMember?.let { member ->
+                if (member.phone.isNotEmpty()) {
+                    val intent = Intent(Intent.ACTION_DIAL).apply {
+                        data = Uri.parse("tel:${member.phone}")
+                    }
+                    startActivity(intent)
+                } else {
+                    Toast.makeText(requireContext(), "No phone number available", Toast.LENGTH_SHORT).show()
+                }
+            }
         }
         
         binding.btnGenerateInvoice.setOnClickListener {
@@ -164,12 +178,13 @@ class MemberProfileFragment : Fragment() {
         dialog.setContentView(dialogBinding.root)
         
         dialog.window?.setLayout(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT)
+        dialog.window?.setBackgroundDrawableResource(android.R.color.transparent)
 
         // Set Start Date to current End Date if active, or today if expired
         val now = System.currentTimeMillis()
         var newStartDate = member.endDate
         if (newStartDate < now) {
-            newStartDate = now // Start from today if already expired
+            newStartDate = now
         }
         
         var selectedPlan: Plan? = null
@@ -259,7 +274,6 @@ class MemberProfileFragment : Fragment() {
                 invoiceNumber = invoiceNumber
             )
             
-            // Note: GymViewModel.updateMember doesn't insert payment automatically like insertMember, so we need both
             viewModel.updateMember(updatedMember)
             viewModel.insertPayment(payment)
             
@@ -267,7 +281,6 @@ class MemberProfileFragment : Fragment() {
             
             dialog.dismiss()
             
-            // Reload UI
             this.currentMember = updatedMember
             populateUI(updatedMember)
         }

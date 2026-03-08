@@ -3,6 +3,7 @@ package com.a1gym.manager.ui.members
 import android.graphics.Color
 import android.graphics.drawable.GradientDrawable
 import android.view.LayoutInflater
+import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
@@ -37,31 +38,41 @@ class MemberAdapter(private val onItemClick: (Member) -> Unit) :
             binding.tvMemberPhone.text = member.phone
             binding.tvExpiryDate.text = "Expires: ${dateFormat.format(Date(member.endDate))}"
             binding.tvStatus.text = member.status
-            
+
+            // Generate initials from member name
+            val initials = member.name.split(" ")
+                .take(2)
+                .mapNotNull { it.firstOrNull()?.uppercase() }
+                .joinToString("")
+            binding.tvInitials.text = initials
+
             if (!member.photoUri.isNullOrEmpty()) {
+                binding.tvInitials.visibility = View.GONE
+                binding.ivMemberPhoto.setPadding(0, 0, 0, 0)
                 Glide.with(binding.root.context)
                     .load(member.photoUri)
                     .circleCrop()
                     .placeholder(android.R.drawable.ic_menu_camera)
                     .into(binding.ivMemberPhoto)
             } else {
-                binding.ivMemberPhoto.setImageResource(android.R.drawable.ic_menu_camera)
+                binding.tvInitials.visibility = View.VISIBLE
+                binding.ivMemberPhoto.setImageDrawable(null)
             }
-            
+
             val statusColor = when (member.status) {
                 "Active" -> Color.parseColor("#4CAF50")
-                "Expired" -> Color.parseColor("#F44336")
-                "Expiring Soon" -> Color.parseColor("#FF9800")
+                "Expired" -> Color.parseColor("#EF4444")
+                "Expiring Soon" -> Color.parseColor("#F59E0B")
                 else -> Color.GRAY
             }
-            
+
             val background = binding.tvStatus.background as? GradientDrawable
             if (background != null) {
                 background.setColor(statusColor)
             } else {
                 val newBg = GradientDrawable()
                 newBg.setColor(statusColor)
-                newBg.cornerRadius = 16f
+                newBg.cornerRadius = 40f
                 binding.tvStatus.background = newBg
             }
 
